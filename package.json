@@ -1,0 +1,23 @@
+{
+  "name": "secret-agent-discovery",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/Merkur39/secret-agent-discovery.git",
+  "author": "Merkur39 <merkkur39@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "secret-agent": "^1.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.0"
+  }
+}
